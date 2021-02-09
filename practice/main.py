@@ -136,8 +136,8 @@ if __name__ == '__main__':
             solver = EvenMorePizza(argv[1]+'/'+f)
             solver.solve()
             temp = solver.soln.score
-            print('Score for {} is {}'.format(f, temp))
+            print(f'Score for {f} is {temp}')
             score += temp
             saveoutput(f,solver.soln.__repr__())
         total = time() - start
-        print('Total {}, Time Taken: {}'.format(score, total))
+        print(f'Total {score}, Time Taken: {total}')
