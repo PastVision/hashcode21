@@ -1,3 +1,7 @@
+# Google Hashcode 2021
+# Practice Problem Solution
+# Team Kernel-Panic
+
 import operator
 from sys import argv
 from os import listdir
