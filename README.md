@@ -34,7 +34,7 @@ Ranking:
 
 ```
 World : 1296
-Country(India) : 216
+Country (India) : 216
 Hub (Delhi Technological Institute) : 3
 ```
 
