@@ -47,8 +47,7 @@ def _LCM(a, b):
             return i * num1
     return num2
 def LCM(nums):
-    if len(nums) == 0: return 0
-    if len(nums) == 1: return 1
+    if len(nums) < 2: return len(nums)
     if len(nums) == 2: return _LCM(nums[0], nums[1])
     return _LCM(nums[0],LCM(nums[1:]))
 
